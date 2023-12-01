@@ -69,6 +69,22 @@
   outline: 5px solid green;
 }
 
+
 .third>div>div {
+  height: 100px;
+  width: 400px;
+  outline: 3px solid green;
+}
+
+.third>div>div+div {
+  width: 400px;
+}
+
+.third>div>div+div {
+  width: 400px;
+}
+
+.third>div>div+div img {
+  width: 200px;
   height: 100px;
 }
