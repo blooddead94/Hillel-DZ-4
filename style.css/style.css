@@ -51,3 +51,36 @@
   object-fit: cover;
 
 }
+
+
+.third {
+  font-size: 0;
+}
+
+.third div {
+  outline: 5px solid green;
+}
+
+.third>div {
+  display: inline-block;
+  width: 800px;
+  font-size: 20px;
+}
+
+.third>div>div {
+  height: 200px;
+}
+
+.third>div+div {
+  width: 400px;
+}
+
+.third>div+div>div {
+  height: 133.33px;
+}
+
+.third>div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
