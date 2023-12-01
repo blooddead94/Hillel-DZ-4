@@ -10,6 +10,7 @@
   font-size: 15px;
   display: inline-block;
   width: 400px;
+  height: 400px;
 }
 
 .first>div img {
@@ -60,6 +61,16 @@
   font-size: 15px;
   display: inline-block;
   width: 400px;
+  height: 400px;
+}
+
+.third>div+div {
+  width: 800px;
+}
+
+.third>div+div>div {
+  height: 200px;
+  vertical-align: top;
 }
 
 .third>div img {
@@ -69,22 +80,18 @@
   outline: 5px solid green;
 }
 
-
-.third>div>div {
-  height: 100px;
-  width: 400px;
-  outline: 3px solid green;
+.third_part3 {
+  font-size: 0;
 }
 
-.third>div>div+div {
+.third_part3>div {
+  display: inline-block;
+  font-size: 15px;
   width: 400px;
+  height: 200px;
+  outline: 5px solid green;
 }
 
-.third>div>div+div {
-  width: 400px;
-}
-
-.third>div>div+div img {
-  width: 200px;
+.third_part3>div+div>div {
   height: 100px;
 }
