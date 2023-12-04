@@ -97,3 +97,117 @@
 .third_part3>div+div>div {
   height: 100px;
 }
+
+/* Float */
+
+.float-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 25px 0;
+  background: lawngreen;
+}
+
+.first-float>div {
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.first-float img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  outline: 3px solid red;
+}
+
+.second-float {
+  width: 1200px;
+  outline: 3px solid red;
+  margin: 0 auto;
+}
+
+.second-float div {
+  outline: 3px solid red;
+}
+
+.second-float>div {
+  display: block;
+  width: 800px;
+  font-size: 20px;
+  float: left;
+}
+
+.second-float>div>div {
+  height: 200px;
+
+}
+
+.second-float>div+div {
+  width: 400px;
+}
+
+.second-float>div+div>div {
+  height: 133.33px;
+}
+
+.second-float>div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+.third-float {
+  margin: auto;
+  width: 1200px;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.third-float>div {
+  font-size: 15px;
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+
+.third-float>div+div {
+  width: 800px;
+}
+
+.third-float>div+div>div {
+  height: 200px;
+}
+
+.third-float>div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  outline: 3px solid red;
+}
+
+
+.third_part>div {
+  font-size: 15px;
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
