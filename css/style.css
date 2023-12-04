@@ -103,8 +103,6 @@
 .float-container {
   width: 1200px;
   margin: 0 auto;
-  padding: 25px 0;
-  background: lawngreen;
 }
 
 .first-float>div {
@@ -210,4 +208,8 @@
   content: '';
   clear: both;
   display: block;
+}
+
+.third_part>div>div img {
+  height: 99px;
 }
